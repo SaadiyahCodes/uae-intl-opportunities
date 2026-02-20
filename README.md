@@ -65,6 +65,7 @@ Create your own opportunities ✨</sub>
 | Name | Field | Location | Age Category | Deadline |  
 | ------- | ------- | ------- | ------- | ------- |  
 | [ResearchGirl](https://www.researchgirl.org/independent-research) | STEM | Remote | High School & Undergraduate | NA (Runs May-Apr) |  
+| [Undergraduate Research & Innovation Competition - Abu Dhabi University](https://www.adu.ac.ae/uric) | Multiple Fields | Abu Dhabi, UAE | Undergraduate | 8 March |  
 
 ---
 
