@@ -1,0 +1,147 @@
+{
+  "closingSoon": [
+    {
+      "name": "MZN x HUB71 Programme",
+      "url": "https://www.hub71.com/program/mzn-x-hub71-programme",
+      "description": "3-month program for Emirati Founders",
+      "deadline": "22 Feb 2026"
+    }
+  ],
+  "categories": {
+    "Volunteer": [
+      {
+        "name": "DataKind",
+        "url": "https://www.datakind.org/",
+        "field": "Data Science / AI for Social Good",
+        "location": "Global (Remote + Chapters)",
+        "ageCategory": "All",
+        "deadline": "Rolling"
+      },
+      {
+        "name": "AI for Good – Young AI Leaders Community",
+        "url": "https://aiforgood.itu.int/",
+        "field": "AI / Technology / SDGs",
+        "location": "Global",
+        "ageCategory": "Youth (18–30 typical)",
+        "deadline": "Rolling"
+      },
+      {
+        "name": "PRME Students (UN)",
+        "url": "https://www.unprme.org/prme-students/",
+        "field": "Sustainability / SDGs / Business",
+        "location": "Global",
+        "ageCategory": "University Students",
+        "deadline": "Rolling"
+      },
+      {
+        "name": "Global Shapers Community",
+        "url": "https://www.globalshapers.org/",
+        "field": "Leadership / Policy / Impact",
+        "location": "Global (City-based hubs)",
+        "ageCategory": "All",
+        "deadline": "Rolling (Hub-dependent)"
+      },
+      {
+        "name": "Develop for Good",
+        "url": "https://www.developforgood.org/",
+        "field": "Software Development / Nonprofit Tech",
+        "location": "Remote",
+        "ageCategory": "University Students/Recent Grads",
+        "deadline": "Rolling"
+      },
+      {
+        "name": "Google Summer of Code (GSoC)",
+        "url": "https://summerofcode.withgoogle.com/",
+        "field": "Open Source / Software Engineering",
+        "location": "Global (Remote)",
+        "ageCategory": "18+",
+        "deadline": "March 16-31"
+      }
+    ],
+    "Jobs / Internships / Fellowships": [
+      {
+        "name": "LunarTech Apprentice Program",
+        "url": "https://www.lunartech.ai/our-careers",
+        "field": "Multiple Fields",
+        "location": "Global",
+        "ageCategory": "18+",
+        "deadline": "N/A"
+      },
+      {
+        "name": "Brazen Academy - PR Internship",
+        "url": "https://www.linkedin.com/posts/hibba-khan-7633b4184_brazenacademy-internship-brazenmena-activity-7427583455808540672-V0i2/",
+        "field": "Public Relations/Marketing",
+        "location": "UAE",
+        "ageCategory": "NA",
+        "deadline": "NA"
+      },
+      {
+        "name": "Kode With Klossy",
+        "url": "https://www.kodewithklossy.com/camp",
+        "field": "Computer Science",
+        "location": "Remote/Onsite",
+        "ageCategory": "13-18",
+        "deadline": "TBD (Spring 2026)"
+      }
+    ],
+    "Certificates": [
+      {
+        "name": "AWS Cloud Practitioner Essentials",
+        "url": "https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/",
+        "field": "Cloud Computing"
+      }
+    ],
+    "Research": [
+      {
+        "name": "ResearchGirl",
+        "url": "https://www.researchgirl.org/independent-research",
+        "field": "STEM",
+        "location": "Remote",
+        "ageCategory": "High School & Undergraduate",
+        "deadline": "NA (Runs May-Apr)"
+      }
+    ],
+    "Competitions": [
+      {
+        "name": "FemTech Hackathon",
+        "url": "https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100",
+        "field": "Science/Health/Innovation",
+        "location": "Dubai, UAE",
+        "ageCategory": "16-18",
+        "deadline": "6 March"
+      },
+      {
+        "name": "MBRSIC CleanTech Hackathon",
+        "url": "https://www.mbrsic.ae/en/join-us/cleantech-hackathon-2026",
+        "field": "Sustainability/Energy/AI",
+        "location": "UAE",
+        "ageCategory": "All",
+        "deadline": "17 March"
+      }
+    ]
+  },
+  "educationResources": [
+    {
+      "name": "Github Repo: AI Engineering Handbook",
+      "url": "https://github.com/DataExpert-io/ai-engineer-handbook",
+      "description": "Computer Science/AI"
+    }
+  ],
+  "peopleCommunities": [
+    {
+      "name": "Socia",
+      "url": "https://www.instagram.com/socia.ae/",
+      "description": "Opportunities in the Gulf"
+    },
+    {
+      "name": "Harsehaj's Substack",
+      "url": "https://harsehaj.substack.com/",
+      "description": "blogs with 3 opportunities daily (US/global)"
+    },
+    {
+      "name": "80,000 Hours Job Board",
+      "url": "https://jobs.80000hours.org/?int_campaign=primary-navigation",
+      "description": ""
+    }
+  ]
+}
