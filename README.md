@@ -14,11 +14,13 @@ Create your own opportunities ✨</sub>
 ### Browse Opportunities by Category
 
 🤝 **[Volunteer](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#volunteer)**  
-💼 **[Jobs / Internships](##jobs--internships)**  
-🎓 **[Certificates](##certificates)** </br>
-🔎 **[Research](##research)** </br>
-🧩 **[Competitions](##competitions)** </br>
-💎 **[Education Resources](##education-resources)**
+💼 **[Jobs / Internships](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#jobs--internships)**  
+🎓 **[Certificates](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#certificates)** </br>
+🔎 **[Research](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#research)** </br>
+🧩 **[Competitions](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#competitions)** </br>
+💎 **[Education Resources](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#education-resources)** </br>
+🌐 **[People/Communities/Job Boards](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#peoplecommunitiesjob-boards)**
+
 
 ---
 
