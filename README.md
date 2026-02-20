@@ -13,7 +13,7 @@ Create your own opportunities ✨</sub>
 
 ### Browse Opportunities by Category
 
-🤝 **[Volunteer](##volunteer)**  
+🤝 **[Volunteer](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#volunteer)**  
 💼 **[Jobs / Internships](##jobs--internships)**  
 🎓 **[Certificates](##certificates)** </br>
 🔎 **[Research](##research)** </br>
