@@ -50,7 +50,8 @@ Create your own opportunities ✨</sub>
 | [LunarTech Apprentice Program](https://www.lunartech.ai/our-careers) | Multiple Fields | Global | 18+ | N/A |  
 | [Brazen Academy - PR Internship](https://www.linkedin.com/posts/hibba-khan-7633b4184_brazenacademy-internship-brazenmena-activity-7427583455808540672-V0i2/) | Public Relations/Marketing | UAE | NA | NA |  
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
-| [42 Abu Dhabi](https://42abudhabi.ae/) | Computer Science | Abu Dhabi | NA | Rolling |  
+| [42 Abu Dhabi Bootcamp](https://42abudhabi.ae/) | Computer Science | Abu Dhabi | NA | Rolling |  
+| [Gigs - Home from College](https://www.homefromcollege.com/gigs) | Marketing/Product/Others | Remote/Global | NA | Rolling |  
 
 ---
 
@@ -59,6 +60,7 @@ Create your own opportunities ✨</sub>
 | Name | Field |  
 | ------- | ------- |  
 | [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/) | Cloud Computing |  
+| [Harvard's CS50 Python](https://cs50.harvard.edu/python/) | Computer Science |  
 
 ---
 
@@ -90,7 +92,8 @@ Create your own opportunities ✨</sub>
 ## People/Communities/Job Boards  
 - [Socia](https://www.instagram.com/socia.ae/): Opportunities in the Gulf  
 - [Harsehaj's Substack](https://harsehaj.substack.com/): blogs with 3 opportunities daily (US/global)  
-- [80,000 Hours Job Board](https://jobs.80000hours.org/?int_campaign=primary-navigation):   
+- [80,000 Hours Job Board](https://jobs.80000hours.org/?int_campaign=primary-navigation): jobs with impact  
+- [Girls on Campus](https://www.instagram.com/girls.on.campus/): posts remote/paid opportunities  
 
 ---
 
