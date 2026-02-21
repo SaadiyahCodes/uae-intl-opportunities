@@ -39,6 +39,7 @@ Create your own opportunities ✨</sub>
 | [Global Shapers Community](https://www.globalshapers.org/) | Leadership / Policy / Impact | Global (City-based hubs) | All | Rolling (Hub-dependent) |  
 | [Develop for Good](https://www.developforgood.org/) | Software Development / Nonprofit Tech | Remote | University Students/Recent Grads | Rolling |  
 | [Google Summer of Code (GSoC)](https://summerofcode.withgoogle.com/) | Open Source / Software Engineering | Global (Remote) | 18+ | March 16-31 |  
+| [Volunteers.ae](https://www.volunteers.ae/) | Community Volunteering | UAE | All | Rolling |  
 
 ---
 
@@ -49,6 +50,7 @@ Create your own opportunities ✨</sub>
 | [LunarTech Apprentice Program](https://www.lunartech.ai/our-careers) | Multiple Fields | Global | 18+ | N/A |  
 | [Brazen Academy - PR Internship](https://www.linkedin.com/posts/hibba-khan-7633b4184_brazenacademy-internship-brazenmena-activity-7427583455808540672-V0i2/) | Public Relations/Marketing | UAE | NA | NA |  
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
+| [42 Abu Dhabi](https://42abudhabi.ae/) | Computer Science | Abu Dhabi | NA | Rolling |  
 
 ---
 
@@ -75,6 +77,7 @@ Create your own opportunities ✨</sub>
 | ------- | ------- | ------- | ------- | ------- |  
 | [FemTech Hackathon](https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100) | Science/Health/Innovation | Dubai, UAE | 16-18 | 6 March |  
 | [MBRSIC CleanTech Hackathon](https://www.mbrsic.ae/en/join-us/cleantech-hackathon-2026) | Sustainability/Energy/AI | UAE | All | 17 March |  
+| [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
 
 ---
 
