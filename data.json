@@ -136,6 +136,14 @@
         "location": "Abu Dhabi, UAE",
         "ageCategory": "Undergraduate",
         "deadline": "8 March"
+      },
+      {
+        "name": "MBZUAI Undergraduate Research Internship (UGRIP)",
+        "url": "https://mbzuai.ac.ae/ugrip/",
+        "field": "CS / Computer Vision / ML / NLP / Robotics",
+        "location": "Abu Dhabi, UAE",
+        "ageCategory": "Undergraduate",
+        "deadline": "26 February"
       }
     ],
     "Competitions": [
