@@ -56,6 +56,14 @@
         "location": "Global (Remote)",
         "ageCategory": "18+",
         "deadline": "March 16-31"
+      },
+      {
+        "name": "Volunteers.ae",
+        "url": "https://www.volunteers.ae/",
+        "field": "Community Volunteering",
+        "location": "UAE",
+        "ageCategory": "All",
+        "deadline": "Rolling"
       }
     ],
     "Jobs / Internships / Fellowships": [
@@ -82,6 +90,14 @@
         "location": "Remote/Onsite",
         "ageCategory": "13-18",
         "deadline": "TBD (Spring 2026)"
+      },
+      {
+        "name": "42 Abu Dhabi",
+        "url": "https://42abudhabi.ae/",
+        "field": "Computer Science",
+        "location": "Abu Dhabi",
+        "ageCategory": "NA",
+        "deadline": "Rolling"
       }
     ],
     "Certificates": [
@@ -125,6 +141,14 @@
         "location": "UAE",
         "ageCategory": "All",
         "deadline": "17 March"
+      },
+      {
+        "name": "LabLab.ai Hackathons",
+        "url": "https://lablab.ai/",
+        "field": "Computer Science/AI/Business",
+        "location": "UAE/Virtual",
+        "ageCategory": "NA",
+        "deadline": "Rolling"
       }
     ]
   },
