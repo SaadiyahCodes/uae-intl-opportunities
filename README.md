@@ -2,30 +2,30 @@
 
 A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
 
-<sub>P.S Not all opportunities are publicly declared with application forms.</br>
-If you're really interested or passionate about working with someone/or on some topic, all you need is an email! 
-Create your own opportunities ✨</sub>
+> [!NOTE]
+> P.S Not all opportunities are publicly declared with application forms.</br>
+> If you're really interested or passionate about working with someone/or on some topic, all you need is an email!
+> Create your own opportunities ✨
 
-<sub>**Note:❗Always verify if there are any fees to enroll/participate**</sub>
-
+> [!IMPORTANT]
+> Always verify if there are any fees to enroll/participate**</sub>
 
 ---
 
-
 ### Browse Opportunities by Category
 
-🤝 **[Volunteer](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#volunteer)**  
-💼 **[Jobs / Internships / Fellowships](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#jobs--internships--fellowships)**  
-🎓 **[Certificates](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#certificates)**  
-🔎 **[Research](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#research)**  
-🧩 **[Competitions](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#competitions)**  
-💎 **[Education Resources](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#education-resources)**  
-🌐 **[People/Communities/Job Boards](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#peoplecommunitiesjob-boards)**  
+🤝 **[Volunteer](#volunteer)**
+💼 **[Jobs / Internships / Fellowships](#jobs--internships--fellowships)**
+🎓 **[Certificates](#certificates)**
+🔎 **[Research](#research)**
+🧩 **[Competitions](#competitions)**
+💎 **[Education Resources](#education-resources)**
+🌐 **[People/Communities/Job Boards](#peoplecommunitiesjob-boards)**
 
-## Volunteer  
+## Volunteer
 
-| Name | Field | Location | Age Category | Deadline |  
-| ------- | ------- | ------- | ------- | ------- |  
+| Name | Field | Location | Age Category | Deadline |
+| ------- | ------- | ------- | ------- | ------- |
 | [Art Dubai 2026 Volunteer](https://docs.google.com/presentation/d/1u9nQXo8jfC26qjg9JRVb-gz-3nUdhv90uMKVcz7yX5c/edit?slide=id.g2e1c14f6cee_0_0#slide=id.g2e1c14f6cee_0_0) | Art / Media / Communication | Dubai | Depends on Volunteer role | NA (Event runs 15-19 April) |  
 | [DataKind](https://www.datakind.org/) | Data Science / AI for Social Good | Global (Remote + Chapters) | All | Rolling |  
 | [AI for Good – Young AI Leaders Community](https://aiforgood.itu.int/) | AI / Technology / SDGs | Global | Youth (18–30 typical) | Rolling |  
@@ -37,10 +37,10 @@ Create your own opportunities ✨</sub>
 
 ---
 
-## Jobs / Internships / Fellowships  
+## Jobs / Internships / Fellowships
 
-| Name | Field | Location | Age Category | Deadline |  
-| ------- | ------- | ------- | ------- | ------- |  
+| Name | Field | Location | Age Category | Deadline |
+| ------- | ------- | ------- | ------- | ------- |
 | [LunarTech Apprentice Program](https://www.lunartech.ai/our-careers) | Multiple Fields | Global | 18+ | N/A |  
 | [Brazen Academy - PR Internship](https://www.linkedin.com/posts/hibba-khan-7633b4184_brazenacademy-internship-brazenmena-activity-7427583455808540672-V0i2/) | Public Relations/Marketing | UAE | NA | NA |  
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
@@ -50,20 +50,20 @@ Create your own opportunities ✨</sub>
 
 ---
 
-## Certificates  
+## Certificates
 
-| Name | Field |  
-| ------- | ------- |  
+| Name | Field |
+| ------- | ------- |
 | [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/) | Cloud Computing |  
 | [Harvard's CS50 Python](https://cs50.harvard.edu/python/) | Computer Science |  
 | [AI Safety Courses (+ Volunteer Projects)](https://www.aisafety.com/self-study) | AI Safety / Ethics / CS / Policy |  
 
 ---
 
-## Research  
+## Research
 
-| Name | Field | Location | Age Category | Deadline |  
-| ------- | ------- | ------- | ------- | ------- |  
+| Name | Field | Location | Age Category | Deadline |
+| ------- | ------- | ------- | ------- | ------- |
 | [ResearchGirl](https://www.researchgirl.org/independent-research) | STEM | Remote | High School & Undergraduate | NA (Runs May-Apr) |  
 | [Undergraduate Research & Innovation Competition - Abu Dhabi University](https://www.adu.ac.ae/uric) | Multiple Fields | Abu Dhabi, UAE | Undergraduate | 8 March |  
 | [MBZUAI Undergraduate Research Internship (UGRIP)](https://mbzuai.ac.ae/ugrip/) | CS / Computer Vision / ML / NLP / Robotics | Abu Dhabi, UAE | Undergraduate | 26 February |  
@@ -71,23 +71,23 @@ Create your own opportunities ✨</sub>
 
 ---
 
-## Competitions  
+## Competitions
 
-| Name | Field | Location | Age Category | Deadline |  
-| ------- | ------- | ------- | ------- | ------- |  
+| Name | Field | Location | Age Category | Deadline |
+| ------- | ------- | ------- | ------- | ------- |
 | [FemTech Hackathon](https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100) | Science/Health/Innovation | Dubai, UAE | 16-18 | 6 March |  
 | [MBRSIC CleanTech Hackathon](https://www.mbrsic.ae/en/join-us/cleantech-hackathon-2026) | Sustainability/Energy/AI | UAE | All | 17 March |  
 | [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
 
 ---
 
-## Education Resources  
+## Education Resources
 
-- [Github Repo: AI Engineering Handbook](https://github.com/DataExpert-io/ai-engineer-handbook): Computer Science/AI  
+- [Github Repo: AI Engineering Handbook](https://github.com/DataExpert-io/ai-engineer-handbook): Computer Science/AI
 
 ---
 
-## People/Communities/Job Boards  
+## People/Communities/Job Boards
 - [Socia](https://www.instagram.com/socia.ae/): Opportunities in the Gulf  
 - [Harsehaj's Substack](https://harsehaj.substack.com/): blogs with 3 opportunities daily (US/global)  
 - [80,000 Hours Job Board](https://jobs.80000hours.org/?int_campaign=primary-navigation): jobs with impact  
@@ -97,6 +97,6 @@ Create your own opportunities ✨</sub>
 
 ### Notes
 
-- "Rolling" = No fixed deadline, apply anytime  
+- "Rolling" = No fixed deadline, apply anytime
 - Always verify deadlines and eligibility requirements on official websites
 - If a link no longer works, the opportunity may have been closed
