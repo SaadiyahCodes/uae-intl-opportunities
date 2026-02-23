@@ -2,9 +2,10 @@ name: Update README from JSON
 
 on:
   push:
-    branches: [main]
+    branches: [main, readme-polish]
     paths:
       - 'data.json'
+      - 'generate_readme.py'
   workflow_dispatch:  #Allow manual triggering
 
 permissions:
