@@ -46,6 +46,7 @@ Create your own opportunities ✨</sub>
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
 | [42 Abu Dhabi Bootcamp](https://42abudhabi.ae/) | Computer Science | Abu Dhabi | NA | Rolling |  
 | [Gigs - Home from College](https://www.homefromcollege.com/gigs) | Marketing/Product/Others | Remote/Global | NA | Rolling |  
+| [Mentor Me Collective - Grow With Google](https://www.mentormecollective.org/grow-with-google) | CS / Data / IT / Cybersecurity / Project Mgt / UX | Remote/Global | NA | Rolling |  
 
 ---
 

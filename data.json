@@ -108,6 +108,14 @@
         "location": "Remote/Global",
         "ageCategory": "NA",
         "deadline": "Rolling"
+      },
+      {
+        "name": "Mentor Me Collective - Grow With Google",
+        "url": "https://www.mentormecollective.org/grow-with-google",
+        "field": "CS / Data / IT / Cybersecurity / Project Mgt / UX",
+        "location": "Remote/Global",
+        "ageCategory": "NA",
+        "deadline": "Rolling"
       }
     ],
     "Certificates": [
