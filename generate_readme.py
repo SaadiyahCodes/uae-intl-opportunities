@@ -1,10 +1,46 @@
 #!/usr/bin/env python3
 import json
+from typing import TypedDict, Optional, Dict, List
+
+class Opportunity(TypedDict, total=False):
+    name:        str
+    url:         str
+    field:       str
+    location:    str
+    ageCategory: str
+    deadline:    str
+
+
+class Certificate(TypedDict):
+    name:  str
+    url:   str
+    field: str
+
+
+class EducationResource(TypedDict):
+    name:        str
+    url:         str
+    description: str
+
+
+class PeopleCommunity(TypedDict):
+    name:        str
+    url:         str
+    description: str
+
+
+class OpportunitiesSchema(TypedDict):
+    closingSoon:        List[Opportunity]
+    categories:         Dict[str, List[Opportunity]]
+    certificates:       List[Certificate]
+    educationResources: List[EducationResource]
+    peopleCommunities:  List[PeopleCommunity]
+
 
 def main():
     #Load data from JSON file
     with open('data.json', 'r', encoding='utf-8') as f:
-        data = json.load(f)
+        data: OpportunitiesSchema = json.load(f)
 
     #Generate README content
     readme_content = generate_readme_content(data)
@@ -15,9 +51,9 @@ def main():
 
     print("README.md generated successfully!")
 
-def generate_readme_content(data):
+def generate_readme_content(data: OpportunitiesSchema) -> str:
     #Header section
-    content = """# uae-intl-opportunities
+    content: str = """# uae-intl-opportunities
 
 A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
 
@@ -36,15 +72,15 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 """
 
     #Add navigation links for all categories
-    content += "🤝 **[Volunteer](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#volunteer)**  \n"
-    content += "💼 **[Jobs / Internships / Fellowships](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#jobs--internships--fellowships)**  \n"
-    content += "🎓 **[Certificates](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#certificates)**  \n"
-    content += "🔎 **[Research](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#research)**  \n"
-    content += "🧩 **[Competitions](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#competitions)**  \n"
-    content += "💎 **[Education Resources](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#education-resources)**  \n"
-    content += "🌐 **[People/Communities/Job Boards](https://github.com/SaadiyahCodes/uae-intl-opportunities?tab=readme-ov-file#peoplecommunitiesjob-boards)**  \n\n"
+    content += "🤝 **[Volunteer](#volunteer)**\n"
+    content += "💼 **[Jobs / Internships / Fellowships](#jobs--internships--fellowships)**\n"
+    content += "🎓 **[Certificates](#certificates)**\n"
+    content += "🔎 **[Research](#research)**\n"
+    content += "🧩 **[Competitions](#competitions)**\n"
+    content += "💎 **[Education Resources](#education-resources)**\n"
+    content += "🌐 **[People/Communities/Job Boards](#peoplecommunitiesjob-boards)**\n\n"
 
-    closing_soon = data.get('closingSoon', [])
+    closing_soon = data.get("closingSoon", [])
 
     if closing_soon:
         content += "## ❗Closing Soon\n"
@@ -99,14 +135,14 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
     return content
 
-def generate_table(headers, items, fields):
+def generate_table(headers: list[str], items: list[Opportunity], fields: list[str]) -> str:
     """Generate a markdown table with given headers and items"""
     if not items:
         return ""
 
     #Table header
-    table = "| " + " | ".join(headers) + " |  \n"
-    table += "| " + " | ".join(["-------"] * len(headers)) + " |  \n"
+    table = "| " + " | ".join(headers) + " |\n"
+    table += "| " + " | ".join(["-------"] * len(headers)) + " |\n"
 
     #Table rows
     for item in items:
