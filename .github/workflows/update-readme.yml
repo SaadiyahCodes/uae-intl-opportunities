@@ -6,6 +6,7 @@ on:
     paths:
       - 'data.json'
       - 'generate_readme.py'
+      - '.github/workflows/update-readme.yml'
   workflow_dispatch:  #Allow manual triggering
 
 permissions:
