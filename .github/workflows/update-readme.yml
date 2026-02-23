@@ -1,4 +1,4 @@
-name: Update README from JSON
+name: Update README from JSON and Deploy to Pages
 
 on:
   push:
@@ -10,6 +10,14 @@ on:
 
 permissions:
   contents: read # Set read-only by default
+  pages: write
+  id-token: write
+
+# Allow only one concurrent deployment, skipping runs queued between the run in-progress and latest queued.
+# However, do NOT cancel in-progress runs as we want to allow these production deployments to complete.
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   update-readme:
@@ -24,6 +32,8 @@ jobs:
 
       - name: Set up Python
         uses: actions/setup-python@v6
+        with:
+          python-version: "3.11"
 
       - name: Generate README
         run: python generate_readme.py
@@ -39,3 +49,21 @@ jobs:
           else
             echo "No changes to commit"
           fi
+
+  deploy-pages:
+    needs: update-readme
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v6
+
+      - name: Prepare Pages content
+        run: |
+          mkdir site
+          cp README.md site/index.md
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
+      - uses: actions/deploy-pages@v4
