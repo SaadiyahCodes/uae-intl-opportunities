@@ -38,52 +38,43 @@ class OpportunitiesSchema(TypedDict):
 
 
 def main():
-    #Load data from JSON file
     with open('data.json', 'r', encoding='utf-8') as f:
         data: OpportunitiesSchema = json.load(f)
 
-    #Generate README content
-    readme_content = generate_readme_content(data)
+    with open('README_template.md', 'r', encoding='utf-8') as f:
+        template = f.read()
 
-    #Write to README.md
+    tables_content = generate_tables_section(data)
+
+    final_readme = insert_generated_content(template, tables_content)
+
     with open('README.md', 'w', encoding='utf-8') as f:
-        f.write(readme_content)
+        f.write(final_readme)
 
     print("README.md generated successfully!")
 
-def generate_readme_content(data: OpportunitiesSchema) -> str:
-    #Header section
-    content: str = """# uae-intl-opportunities
+def insert_generated_content(template, tables_content):
+    start_marker = "<!-- AUTO-GENERATED-TABLES-START -->"
+    end_marker = "<!-- AUTO-GENERATED-TABLES-END -->"
 
-A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
+    start_index = template.index(start_marker) + len(start_marker)
+    end_index = template.index(end_marker)
 
-> [!NOTE]
-> P.S Not all opportunities are publicly declared with application forms.</br>
-> If you're really interested or passionate about working with someone/or on some topic, all you need is an email!
-> Create your own opportunities ✨
+    return (
+        template[:start_index]
+        + "\n\n"
+        + tables_content.strip()
+        + "\n\n"
+        + template[end_index:]
+    )
 
-> [!IMPORTANT]
-> Always verify if there are any fees to enroll/participate**</sub>
+def generate_tables_section(data):
+    content = ""
 
----
-
-### Browse Opportunities by Category
-
-"""
-
-    #Add navigation links for all categories
-    content += "🤝 **[Volunteer](#volunteer)**\n"
-    content += "💼 **[Jobs / Internships / Fellowships](#jobs--internships--fellowships)**\n"
-    content += "🎓 **[Certificates](#certificates)**\n"
-    content += "🔎 **[Research](#research)**\n"
-    content += "🧩 **[Competitions](#competitions)**\n"
-    content += "💎 **[Education Resources](#education-resources)**\n"
-    content += "🌐 **[People/Communities/Job Boards](#peoplecommunitiesjob-boards)**\n\n"
-
-    closing_soon = data.get("closingSoon", [])
-
+    # Closing Soon
+    closing_soon = data.get('closingSoon', [])
     if closing_soon:
-        content += "## ❗Closing Soon\n"
+        content += "## ❗ Closing Soon\n\n"
         content += generate_table(
             ['Name', 'Description', 'Deadline'],
             closing_soon,
@@ -91,14 +82,13 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
         )
         content += "\n---\n\n"
 
-    #Generate content for each category
-    for category, opportunities in data['categories'].items():
+    # Categories
+    for category, opportunities in data.get('categories', {}).items():
         if not opportunities:
             continue
 
         content += f"## {category}\n\n"
 
-        #Determine columns based on category
         if category == "Certificates":
             content += generate_table(
                 ['Name', 'Field'],
@@ -111,27 +101,25 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
                 opportunities,
                 ['name', 'field', 'location', 'ageCategory', 'deadline']
             )
+
         content += "\n---\n\n"
 
-    #Education Resources section
-    content += "## Education Resources\n\n"
-    for resource in data['educationResources']:
-        content += f"- [{resource['name']}]({resource['url']}): {resource['description']}\n"
-    content += "\n---\n\n"
+    # Education Resources
+    resources = data.get('educationResources', [])
+    if resources:
+        content += "## Education Resources\n\n"
+        for resource in resources:
+            content += f"- [{resource['name']}]({resource['url']}): {resource['description']}  \n"
+        content += "\n---\n\n"
 
-    #People/Communities/Job Boards section
-    content += "## People/Communities/Job Boards\n"
-    for item in data['peopleCommunities']:
-        description = item['description'] if item['description'] else ""
-        content += f"- [{item['name']}]({item['url']}): {description}  \n"
-    content += "\n---\n\n"
-
-    #Notes section
-    content += """### Notes
-
-- "Rolling" = No fixed deadline, apply anytime
-- Always verify deadlines and eligibility requirements on official websites
-- If a link no longer works, the opportunity may have been closed"""
+    # People/Communities
+    people = data.get('peopleCommunities', [])
+    if people:
+        content += "## People/Communities/Job Boards\n\n"
+        for item in people:
+            description = item.get('description', '')
+            content += f"- [{item['name']}]({item['url']}): {description}  \n"
+        content += "\n---\n\n"
 
     return content
 
