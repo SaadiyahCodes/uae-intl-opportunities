@@ -2,11 +2,14 @@
 
 A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
 
-<sub>P.S Not all opportunities are publicly declared with application forms.</sub>
-<sub>If you're really interested or passionate about working with someone/or on some topic, all you need is an email! 
-Create your own opportunities ✨</sub>
+> [!NOTE]
+> P.S Not all opportunities are publicly declared with application forms.</br>
+> If you're really interested or passionate about working with someone/or on some topic, all you need is an email!
+> Create your own opportunities ✨
 
-<sub>**Note:❗Always verify if there are any fees to enroll/participate**</sub>
+> [!IMPORTANT]
+> Always verify if there are any fees to enroll/participate**</sub>
+
 
 ---
 
