@@ -2,13 +2,11 @@
 
 A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
 
-> [!NOTE]
-> P.S Not all opportunities are publicly declared with application forms.</br>
-> If you're really interested or passionate about working with someone/or on some topic, all you need is an email!
-> Create your own opportunities ✨
+<sub>P.S Not all opportunities are publicly declared with application forms.</br>
+If you're really interested or passionate about working with someone/or on some topic, all you need is an email! 
+Create your own opportunities ✨</sub>
 
-> [!IMPORTANT]
-> Always verify if there are any fees to enroll/participate**</sub>
+<sub>**Note:❗Always verify if there are any fees to enroll/participate**</sub>
 
 ---
 
@@ -56,8 +54,8 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 ## Certificates
 
-| Name | Field |  
-| ------- | ------- |  
+| Name | Field |
+| ------- | ------- |
 | [AI Nation - Afaaq [AWS Upskilling Program]](https://www.ea.ae/ai-nation-afaaq-program) | Cloud / AI / CS |  
 | [AWS Cloud Practitioner Essentials](https://aws.amazon.com/training/digital/aws-cloud-practitioner-essentials/) | Cloud Computing |  
 | [Harvard's CS50 Python](https://cs50.harvard.edu/python/) | Computer Science |  
