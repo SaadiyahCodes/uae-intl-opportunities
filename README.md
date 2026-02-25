@@ -89,6 +89,7 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 | [FemTech Hackathon](https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100) | Science/Health/Innovation | Dubai, UAE | 16-18 | 6 March |  
 | [MBRSIC CleanTech Hackathon](https://www.mbrsic.ae/en/join-us/cleantech-hackathon-2026) | Sustainability/Energy/AI | UAE | All | 17 March |  
 | [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
+| [Build with K2 Think V2 - Monthly Challenge](https://build.k2think.ai/) | CS / AI | Global/UAE | NA | Rolling (First deadline - March 10) |  
 
 ---
 
