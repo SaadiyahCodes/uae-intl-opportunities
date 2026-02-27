@@ -86,6 +86,7 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 | Name | Field | Location | Age Category | Deadline |
 | ------- | ------- | ------- | ------- | ------- |
+| [EMIS Writing Contest 2026](https://forms.gle/z52KEcGMT1vhYyaL7) | Creative Writing | Global/Remote | 12-21 | 24 March |  
 | [FemTech Hackathon](https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100) | Science/Health/Innovation | Dubai, UAE | 16-18 | 6 March |  
 | [MBRSIC CleanTech Hackathon](https://www.mbrsic.ae/en/join-us/cleantech-hackathon-2026) | Sustainability/Energy/AI | UAE | All | 17 March |  
 | [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
