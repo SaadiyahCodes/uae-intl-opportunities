@@ -46,6 +46,7 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 | Name | Field | Location | Age Category | Deadline |
 | ------- | ------- | ------- | ------- | ------- |
+| [Hala Youth Ambassador](https://docs.google.com/forms/d/e/1FAIpQLScKcVoQECPIKDLMf0VYVi04jy1nHcOorWVW3pry6mvo9ykgKg/viewform) | Outreach / Events | UAE | University/Recent grad | N/A |  
 | [LunarTech Apprentice Program](https://www.lunartech.ai/our-careers) | Multiple Fields | Global | 18+ | N/A |  
 | [Brazen Academy - PR Internship](https://www.linkedin.com/posts/hibba-khan-7633b4184_brazenacademy-internship-brazenmena-activity-7427583455808540672-V0i2/) | Public Relations/Marketing | UAE | NA | NA |  
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
