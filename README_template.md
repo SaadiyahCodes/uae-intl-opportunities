@@ -36,7 +36,13 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 - If a link no longer works, the opportunity may have been closed
 
 ### CONTRIBUTORS
-I'm incredibly grateful to our contributors who enriched this list with exciting opportunities!
+I'm incredibly grateful to our contributors who enriched this list with exciting opportunities and/or improved the page!
 
 
 - [Muhammad Hamad](https://www.linkedin.com/in/mohammadhamad/)
+
+<a href="https://github.com/SaadiyahCodes/uae-intl-opportunities/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SaadiyahCodes/uae-intl-opportunities" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
