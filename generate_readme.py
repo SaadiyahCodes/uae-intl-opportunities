@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 import json
-from typing import TypedDict, Optional, Dict, List
+from typing import TypedDict
 
 class Opportunity(TypedDict, total=False):
     name:        str
@@ -30,11 +30,11 @@ class PeopleCommunity(TypedDict):
 
 
 class OpportunitiesSchema(TypedDict):
-    closingSoon:        List[Opportunity]
-    categories:         Dict[str, List[Opportunity]]
-    certificates:       List[Certificate]
-    educationResources: List[EducationResource]
-    peopleCommunities:  List[PeopleCommunity]
+    closingSoon:        list[Opportunity]
+    categories:         dict[str, list[Opportunity]]
+    certificates:       list[Certificate]
+    educationResources: list[EducationResource]
+    peopleCommunities:  list[PeopleCommunity]
 
 
 def main():

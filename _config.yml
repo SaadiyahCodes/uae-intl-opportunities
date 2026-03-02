@@ -1,0 +1,13 @@
+remote_theme: abhinavs/moonwalk
+
+theme_config:
+  appearance: "auto"      # can be "light", "dark" or "auto"
+  appearance_toggle: true # if appearance can be switched by user
+  show_navbar: false
+  show_footer: false
+
+# Site settings
+title: UAE Int'l Opportunities
+repository: SaadiyahCodes/uae-intl-opportunities
+description: >-
+  A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, research and more!

@@ -2,11 +2,12 @@ name: Update README from JSON and Deploy to Pages
 
 on:
   push:
-    branches: [main, readme-polish]
+    branches: [main] # Pushes only to main branch
     paths:
-      - 'data.json'
-      - 'generate_readme.py'
-      - '.github/workflows/update-readme.yml'
+      - 'data.json'                           # Metadata file
+      - 'generate_readme.py'                  # Update script
+      - 'README_template.md'                  # Template README file
+      - '.github/workflows/update-readme.yml' # GitHub Actions workflow
   workflow_dispatch:  #Allow manual triggering
 
 permissions:
@@ -51,6 +52,7 @@ jobs:
             echo "No changes to commit"
           fi
 
+  # Deploy to GitHub Pages
   deploy-pages:
     needs: update-readme
     runs-on: ubuntu-latest
@@ -65,8 +67,10 @@ jobs:
           mkdir site
           cp README.md site/index.md
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload to GitHub Pages
+        uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - uses: actions/deploy-pages@v4
+      - name: Deploy GitHub Pages site
+        uses: actions/deploy-pages@v4

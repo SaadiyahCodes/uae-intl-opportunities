@@ -100,7 +100,7 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 - [Github Repo: AI Engineering Handbook](https://github.com/DataExpert-io/ai-engineer-handbook): Computer Science/AI  
 - [Microsoft: AI For Beginners](https://microsoft.github.io/AI-For-Beginners/): Computer Science/AI  
 - [Free $100 credits with Azure for Students](https://azure.microsoft.com/en-us/free/students): $100 worth free Microsoft Azure credits  
-- [GitHub Student Developer Pack](https://www.eccouncil.org/cybersecurity-exchange/cyber-novice/free-cybersecurity-courses-beginners/): collection of free services as part of github student developer pack  
+- [GitHub Student Developer Pack](https://education.github.com/pack/): collection of free services as part of github student developer pack  
 
 ---
 
@@ -123,7 +123,13 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 - If a link no longer works, the opportunity may have been closed
 
 ### CONTRIBUTORS
-I'm incredibly grateful to our contributors who enriched this list with exciting opportunities!
+I'm incredibly grateful to our contributors who enriched this list with exciting opportunities and/or improved the page!
 
 
 - [Muhammad Hamad](https://www.linkedin.com/in/mohammadhamad/)
+
+<a href="https://github.com/SaadiyahCodes/uae-intl-opportunities/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=SaadiyahCodes/uae-intl-opportunities" />
+</a>
+
+Made with [contrib.rocks](https://contrib.rocks).
