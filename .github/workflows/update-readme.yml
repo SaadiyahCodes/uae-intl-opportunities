@@ -2,7 +2,7 @@ name: Update README from JSON and Deploy to Pages
 
 on:
   push:
-    branches: [main, gh-actions-fix] # Pushes only to main branch
+    branches: [main] # Pushes only to main branch
     paths:
       - 'data.json'                           # Metadata file
       - 'generate_readme.py'                  # Update script
