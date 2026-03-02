@@ -70,6 +70,14 @@
     ],
     "Jobs / Internships / Fellowships": [
       {
+        "name": "Hala Youth Ambassador",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLScKcVoQECPIKDLMf0VYVi04jy1nHcOorWVW3pry6mvo9ykgKg/viewform",
+        "field": "Outreach / Events",
+        "location": "UAE",
+        "ageCategory": "University/Recent grad",
+        "deadline": "N/A"
+      },
+      {
         "name": "LunarTech Apprentice Program",
         "url": "https://www.lunartech.ai/our-careers",
         "field": "Multiple Fields",
@@ -204,6 +212,14 @@
     ],
     "Competitions": [
       {
+        "name": "EMIS Writing Contest 2026",
+        "url": "https://forms.gle/z52KEcGMT1vhYyaL7",
+        "field": "Creative Writing",
+        "location": "Global/Remote",
+        "ageCategory": "12-21",
+        "deadline": "24 March"
+      },
+      {
         "name": "FemTech Hackathon",
         "url": "https://schools.expocitydubai.com/en/femtech-hackathon-2026/#msdynmkt_trackingcontext=0544e260-0bab-4e44-83eb-fe2dec920100",
         "field": "Science/Health/Innovation",
@@ -226,6 +242,14 @@
         "location": "UAE/Virtual",
         "ageCategory": "NA",
         "deadline": "Rolling"
+      },
+      {
+        "name": "Build with K2 Think V2 - Monthly Challenge",
+        "url": "https://build.k2think.ai/",
+        "field": "CS / AI",
+        "location": "Global/UAE",
+        "ageCategory": "NA",
+        "deadline": "Rolling (First deadline - March 10)"
       }
     ]
   },
