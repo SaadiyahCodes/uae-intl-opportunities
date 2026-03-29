@@ -1,4 +1,4 @@
-name: Update README from JSON and Deploy to Pages
+name: Update README and Deploy to Pages
 
 on:
   push:
@@ -12,7 +12,7 @@ on:
   workflow_dispatch:  #Allow manual triggering
 
 permissions:
-  contents: read # Set read-only by default
+  contents: write
   pages: write
   id-token: write
 
@@ -23,80 +23,49 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  update-readme:
+  # Job 1: Generate README files
+  build:
     runs-on: ubuntu-latest
-
-    permissions:
-      contents: write   # override ONLY for this job
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v6
-
-      - name: Set up Python
-        uses: actions/setup-python@v6
+      - name: Checkout
+        uses: actions/checkout@v4
+ 
+      - name: Setup Python
+        uses: actions/setup-python@v5
         with:
-          python-version: "3.12"
-
-      - name: Generate README
+          python-version: '3.12'
+ 
+      - name: Generate README files
         run: python generate_readme.py
-
-      - name: Commit and push changes
+ 
+      - name: Commit changes
         run: |
-          git config --local user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add README.md CLOSED.md
-          if ! git diff --staged --quiet; then
-            git commit -m "docs: Update README from data.json"
-            git push
-          else
-            echo "No changes to commit"
-          fi
-
-  # Deploy to GitHub Pages
-  deploy-pages:
-    needs: update-readme
-    runs-on: ubuntu-latest
-    environment:
-        name: github-pages
-
-    steps:
-      - uses: actions/checkout@v6
-        with:
-          ref: main  # Ensure we get the latest commit from update-readme job
-
+          git diff --staged --quiet || git commit -m "docs: Update README from data.json"
+          git push || echo "No changes to push"
+ 
       - name: Setup Pages
-        uses: actions/configure-pages@v5
-
-      - name: Prepare Pages content
-        run: |
-          mkdir -p _site
-          cp README.md _site/index.md
-          cp CLOSED.md _site/closed.md
-          cp _config.yml _site/
-
-          # Add front matter to index.md
-          echo "---" > _site/index_tmp.md
-          echo "layout: default" >> _site/index_tmp.md
-          echo "title: UAE International Opportunities" >> _site/index_tmp.md
-          echo "---" >> _site/index_tmp.md
-          echo "" >> _site/index_tmp.md
-          cat _site/index.md >> _site/index_tmp.md
-          mv _site/index_tmp.md _site/index.md
-          
-          # Add front matter to closed.md
-          echo "---" > _site/closed_tmp.md
-          echo "layout: default" >> _site/closed_tmp.md
-          echo "title: Closed Opportunities Archive" >> _site/closed_tmp.md
-          echo "---" >> _site/closed_tmp.md
-          echo "" >> _site/closed_tmp.md
-          cat _site/closed.md >> _site/closed_tmp.md
-          mv _site/closed_tmp.md _site/closed.md
-
+        uses: actions/configure-pages@v4
+ 
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
+        with:
+          source: ./
+          destination: ./_site
+ 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
-        with:
-          path: _site
-
-      - name: Deploy GitHub Pages site
+ 
+  # Job 2: Deploy to GitHub Pages
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
         uses: actions/deploy-pages@v4

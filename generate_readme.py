@@ -80,6 +80,10 @@ def insert_generated_content(template, tables_content):
     start_marker = "<!-- AUTO-GENERATED-TABLES-START -->"
     end_marker = "<!-- AUTO-GENERATED-TABLES-END -->"
 
+    if start_marker not in template or end_marker not in template:
+        # Fallback - append content
+        return template + "\n\n" + tables_content
+
     start_index = template.index(start_marker) + len(start_marker)
     end_index = template.index(end_marker)
 
@@ -173,9 +177,19 @@ def generate_table(headers: list[str], items: list[Opportunity], fields: list[st
     return table
 
 def generate_closed_opportunities_page(closed_opportunities):
-    """Generate a separate page for closed opportunities"""
+    """Generate CLOSED.md using template"""
     
-    content = """# 🗄️ Closed Opportunities Archive
+    # Try to load template with front matter
+    try:
+        with open('CLOSED_template.md', 'r', encoding='utf-8') as f:
+            template = f.read()
+    except FileNotFoundError:
+        # Fallback template if file doesn't exist
+        template = """---
+layout: default
+title: Closed Opportunities Archive
+---
+# 🗄️ Closed Opportunities Archive
  
 This page contains opportunities that have closed or expired. We keep them here for reference and to help you discover similar opportunities that may reopen in the future.
  
@@ -186,10 +200,22 @@ This page contains opportunities that have closed or expired. We keep them here 
  
 ---
  
+<!-- AUTO-GENERATED-CONTENT-START -->
+<!-- AUTO-GENERATED-CONTENT-END -->
+ 
+### Notes
+ 
+- These opportunities have passed their deadline or are no longer accepting applications
+- Check if similar opportunities will be offered in the future
+- Many programs run annually - set a reminder to apply next year!
+ 
+**[← Back to Active Opportunities](README.md)**
 """
     
+    content = ""
+    
     if not closed_opportunities:
-        content += "_No closed opportunities yet._\n"
+        content = "_No closed opportunities yet._\n"
     else:
         # Group by category
         by_category = {}
@@ -217,18 +243,10 @@ This page contains opportunities that have closed or expired. We keep them here 
             content += generate_table(headers, opportunities, fields)
             content += "\n---\n\n"
     
-    content += """
-### Notes
- 
-- These opportunities have passed their deadline or are no longer accepting applications
-- Check if similar opportunities will be offered in the future
-- Many programs run annually - set a reminder to apply next year!
- 
-**[← Back to Active Opportunities](README.md)**
-"""
+    final_closed = insert_generated_content(template, content)
     
     with open('CLOSED.md', 'w', encoding='utf-8') as f:
-        f.write(content)
+        f.write(final_closed)
 
 if __name__ == "__main__":
     main()

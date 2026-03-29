@@ -1,3 +1,6 @@
+---
+layout: default
+---
 # uae-intl-opportunities
 
 A comprehensive list of opportunities for students/professionals in UAE as well as global/international programs. Includes fellowships, volunteer programs, certificates and more! Most of these opportunities are free and/or global <3
