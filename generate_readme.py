@@ -37,6 +37,7 @@ class OpportunitiesSchema(TypedDict):
     educationResources: list[EducationResource]
     peopleCommunities:  list[PeopleCommunity]
 
+
 class ClosedOpportunity(TypedDict, total=False):
     name:        str
     url:         str
@@ -47,12 +48,13 @@ class ClosedOpportunity(TypedDict, total=False):
     closedDate:  str
     category:    str
 
-def main(): 
-    #load active opportunities
+
+def main():
+    # Load active opportunities
     with open('data.json', 'r', encoding='utf-8') as f:
         data: OpportunitiesSchema = json.load(f)
-    
-    #load closed opportunities (create if doesn't exist)
+
+    # Load closed opportunities (create if doesn't exist)
     try:
         with open('closed_opportunities.json', 'r', encoding='utf-8') as f:
             closed_data = json.load(f)
@@ -61,7 +63,7 @@ def main():
         with open('closed_opportunities.json', 'w', encoding='utf-8') as f:
             json.dump(closed_data, f, indent=2)
 
-    #generate main README
+    # Generate main README
     with open('README_template.md', 'r', encoding='utf-8') as f:
         template = f.read()
 
@@ -70,20 +72,22 @@ def main():
 
     with open('README.md', 'w', encoding='utf-8') as f:
         f.write(final_readme)
-    
-    #generate CLOSED.md
+
+    # Generate CLOSED.md
     generate_closed_opportunities_page(closed_data)
 
     print("README.md and CLOSED.md generated successfully!")
 
+
 def insert_generated_content(template, tables_content):
+    """Insert content while preserving front matter"""
     start_marker = "<!-- AUTO-GENERATED-TABLES-START -->"
     end_marker = "<!-- AUTO-GENERATED-TABLES-END -->"
 
     if start_marker not in template or end_marker not in template:
         # Fallback - append content
         return template + "\n\n" + tables_content
-
+    
     start_index = template.index(start_marker) + len(start_marker)
     end_index = template.index(end_marker)
 
@@ -95,6 +99,7 @@ def insert_generated_content(template, tables_content):
         + template[end_index:]
     )
 
+
 def generate_tables_section(data):
     content = ""
 
@@ -103,9 +108,9 @@ def generate_tables_section(data):
     if closing_soon:
         content += "## ❗ Closing Soon\n\n"
         content += generate_table(
-            ['Name', 'Description', 'Deadline'],
+            ['Name', 'Field', 'Deadline'],
             closing_soon,
-            ['name', 'description', 'deadline']
+            ['name', 'field', 'deadline']
         )
         content += "\n---\n\n"
 
@@ -150,22 +155,23 @@ def generate_tables_section(data):
 
     return content
 
+
 def generate_table(headers: list[str], items: list[Opportunity], fields: list[str]) -> str:
     """Generate a markdown table with given headers and items"""
     if not items:
         return ""
 
-    #Table header
+    # Table header
     table = "| " + " | ".join(headers) + " |\n"
     table += "| " + " | ".join(["-------"] * len(headers)) + " |\n"
 
-    #Table rows
+    # Table rows
     for item in items:
         row = []
         for field_index, field in enumerate(fields):
             value = str(item.get(field, "")).replace("|", "\\|")
 
-            #Create hyperlink for name field
+            # Create hyperlink for name field
             if field_index == 0:
                 url = item.get('url', '')
                 if url and url != 'NA':
@@ -175,6 +181,7 @@ def generate_table(headers: list[str], items: list[Opportunity], fields: list[st
         table += "| " + " | ".join(row) + " |  \n"
 
     return table
+
 
 def generate_closed_opportunities_page(closed_opportunities):
     """Generate CLOSED.md using template"""
@@ -190,25 +197,25 @@ layout: default
 title: Closed Opportunities Archive
 ---
 # 🗄️ Closed Opportunities Archive
- 
+
 This page contains opportunities that have closed or expired. We keep them here for reference and to help you discover similar opportunities that may reopen in the future.
- 
+
 > [!TIP]
 > Many of these opportunities run annually! Bookmark this page and check back next year.
- 
+
 **[← Back to Active Opportunities](README.md)**
- 
+
 ---
- 
+
 <!-- AUTO-GENERATED-CONTENT-START -->
 <!-- AUTO-GENERATED-CONTENT-END -->
- 
+
 ### Notes
- 
+
 - These opportunities have passed their deadline or are no longer accepting applications
 - Check if similar opportunities will be offered in the future
 - Many programs run annually - set a reminder to apply next year!
- 
+
 **[← Back to Active Opportunities](README.md)**
 """
     
@@ -247,6 +254,7 @@ This page contains opportunities that have closed or expired. We keep them here 
     
     with open('CLOSED.md', 'w', encoding='utf-8') as f:
         f.write(final_closed)
+
 
 if __name__ == "__main__":
     main()
