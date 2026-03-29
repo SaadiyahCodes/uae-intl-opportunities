@@ -47,6 +47,9 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 | Name | Field | Location | Age Category | Deadline |
 | ------- | ------- | ------- | ------- | ------- |
+| [AI4ALL Ignite Summer 2026](https://ai-4-all.org/ai4all-ignite/) | AI/ML | Virtual/Global | University Students | April 13 2026 |  
+| [ADIA Lab Internships](https://jobs.adia.ae/_/j/68F3B45AD3/) | Data Science/ML/AI/HPC | UAE | University/Recent grad | April 3 2026 |  
+| [WILD Fellowship](https://www.wildleadershipforum.com/2026wildfellow) | Leadership Development/Humanitarian | Virtual/Global | Women at any career stage | 31 March 2026 |  
 | [Hala Youth Ambassador](https://docs.google.com/forms/d/e/1FAIpQLScKcVoQECPIKDLMf0VYVi04jy1nHcOorWVW3pry6mvo9ykgKg/viewform) | Outreach / Events | UAE | University/Recent grad | N/A |  
 | [LunarTech Apprentice Program](https://www.lunartech.ai/our-careers) | Multiple Fields | Global | 18+ | N/A |  
 | [Kode With Klossy](https://www.kodewithklossy.com/camp) | Computer Science | Remote/Onsite | 13-18 | TBD (Spring 2026) |  
@@ -87,7 +90,8 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 | Name | Field | Location | Age Category | Deadline |
 | ------- | ------- | ------- | ------- | ------- |
-| [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
+| [Odoo Buildathon](https://docs.google.com/forms/d/e/1FAIpQLSf24sZu2HiIy0W0-07LFZIiuxKSutX1BM2c-yNzjSS4l5mkmg/viewform) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
+| [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science | UAE/Virtual | NA | March 27 - April 7 2026 |  
 | [Build with K2 Think V2 - Monthly Challenge](https://build.k2think.ai/) | CS / AI | Global/UAE | NA | Rolling (First deadline - March 10) |  
 
 ---
