@@ -69,6 +69,30 @@
     ],
     "Jobs / Internships / Fellowships": [
       {
+        "name": "AI4ALL Ignite Summer 2026",
+        "url": "https://ai-4-all.org/ai4all-ignite/",
+        "field": "AI/ML",
+        "location": "Virtual/Global",
+        "ageCategory": "University Students",
+        "deadline": "April 13 2026"
+      },
+      {
+        "name": "ADIA Lab Internships",
+        "url": "https://jobs.adia.ae/_/j/68F3B45AD3/",
+        "field": "Data Science/ML/AI/HPC",
+        "location": "UAE",
+        "ageCategory": "University/Recent grad",
+        "deadline": "April 3 2026"
+      },
+      {
+        "name": "WILD Fellowship",
+        "url": "https://www.wildleadershipforum.com/2026wildfellow",
+        "field": "Leadership Development/Humanitarian",
+        "location": "Virtual/Global",
+        "ageCategory": "Women at any career stage",
+        "deadline": "31 March 2026"
+      },
+      {
         "name": "Hala Youth Ambassador",
         "url": "https://docs.google.com/forms/d/e/1FAIpQLScKcVoQECPIKDLMf0VYVi04jy1nHcOorWVW3pry6mvo9ykgKg/viewform",
         "field": "Outreach / Events",
@@ -203,12 +227,20 @@
     ],
     "Competitions": [
       {
-        "name": "LabLab.ai Hackathons",
-        "url": "https://lablab.ai/",
+        "name": "Odoo Buildathon",
+        "url": "https://docs.google.com/forms/d/e/1FAIpQLSf24sZu2HiIy0W0-07LFZIiuxKSutX1BM2c-yNzjSS4l5mkmg/viewform",
         "field": "Computer Science/AI/Business",
         "location": "UAE/Virtual",
         "ageCategory": "NA",
         "deadline": "Rolling"
+      },
+      {
+        "name": "LabLab.ai Hackathons",
+        "url": "https://lablab.ai/",
+        "field": "Computer Science",
+        "location": "UAE/Virtual",
+        "ageCategory": "NA",
+        "deadline": "March 27 - April 7 2026"
       },
       {
         "name": "Build with K2 Think V2 - Monthly Challenge",
