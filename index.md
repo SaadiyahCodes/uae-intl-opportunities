@@ -93,8 +93,8 @@ A comprehensive list of opportunities for students/professionals in UAE as well 
 
 | Name | Field | Location | Age Category | Deadline |
 | ------- | ------- | ------- | ------- | ------- |
-| [Odoo Buildathon](https://docs.google.com/forms/d/e/1FAIpQLSf24sZu2HiIy0W0-07LFZIiuxKSutX1BM2c-yNzjSS4l5mkmg/viewform) | Computer Science/AI/Business | UAE/Virtual | NA | Rolling |  
-| [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science | UAE/Virtual | NA | March 27 - April 7 2026 |  
+| [Odoo Buildathon](https://docs.google.com/forms/d/e/1FAIpQLSf24sZu2HiIy0W0-07LFZIiuxKSutX1BM2c-yNzjSS4l5mkmg/viewform) | Computer Science/AI/Business | UAE/Virtual | NA | March 27 - April 7 2026 |  
+| [LabLab.ai Hackathons](https://lablab.ai/) | Computer Science | UAE/Virtual | NA | Rolling |  
 | [Build with K2 Think V2 - Monthly Challenge](https://build.k2think.ai/) | CS / AI | Global/UAE | NA | Rolling (First deadline - March 10) |  
 
 ---
