@@ -276,6 +276,11 @@
   ],
   "peopleCommunities": [
     {
+      "name": "UAE Research Map",
+      "url": "https://uaeresearchmap.ae/challenge",
+      "description": "A map of competitions revolving around innovation in the UAE"
+    },
+    {
       "name": "Socia",
       "url": "https://www.instagram.com/socia.ae/",
       "description": "Opportunities in the Gulf"
